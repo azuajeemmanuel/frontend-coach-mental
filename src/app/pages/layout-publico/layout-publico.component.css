@@ -1,0 +1,17 @@
+.logo{
+	width: 160px;
+	height: 150px;
+}
+.header .single-widget .logo{
+	margin:0;
+	padding:0;
+}
+
+.header.style2 .logo {
+	margin-top:6px;
+}
+
+.header .logo {
+	float: left;
+	margin-top: 0px;
+}

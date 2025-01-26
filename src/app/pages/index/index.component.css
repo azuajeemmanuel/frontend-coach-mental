@@ -1,0 +1,26 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size:14px;
+	color:#888;
+}
+
+
+
+#fun-facts .content {
+    margin-left: 10px;
+}
+
+#fun-facts .container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan */
+    justify-content: space-around; /* Espacia los elementos uniformemente */
+}
+
+#fun-facts .col-lg-3,
+#fun-facts .col-md-6,
+#fun-facts .col-12 {
+    display: flex;
+    justify-content: center; /* Centra los elementos en su contenedor */
+}

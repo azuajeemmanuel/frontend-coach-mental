@@ -1,0 +1,76 @@
+
+<!-- 
+<form (submit)="sendEmail($event)" id="form">
+    <div class="field">
+        <label for="from_name">Correo</label>
+        <input type="text" name="from_name" id="from_name" [(ngModel)]="from_name" placeholder="Nombre" required />
+    </div>
+    <div class="field">
+        <label for="to_name">Nombre Completo</label>
+        <input type="email" name="to_name" id="to_name" [(ngModel)]="to_name" placeholder="Correo electrónico" required />
+    </div>
+    <div class="field">
+        <label for="message">Mensaje</label>
+        <textarea name="message" id="message" [(ngModel)]="message" placeholder="Mensaje" required></textarea>
+    </div>
+    <button type="submit">Enviar</button>
+</form> -->
+
+
+<section class="appointment">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2>Siempre estamos listos para ayudarte</h2>
+                    <p>¿Tienes preguntas o necesitas asesoramiento personalizado? ¡Estamos aquí para ayudarte! Contáctanos a través de nuestro formulario de contacto</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+                <form (submit)="sendEmail($event)" id="form" class="form" action="#">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <div class="form-group">
+                                <input name="to_name" id="to_name" [(ngModel)]="to_name" type="text" placeholder="Nombre">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <div class="form-group">
+                                <input name="from_name" id="from_name" [(ngModel)]="from_name" type="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <div class="form-group">
+                                <input name="phone" id="phone" [(ngModel)]="phone" name="phone" type="text" placeholder="Telefono">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 col-md-12 col-12">
+                            <div class="form-group">
+                                <textarea name="message" id="message" [(ngModel)]="message" placeholder="Escribe tu mensaje aqui....."></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5 col-md-4 col-12">
+                            <div class="form-group">
+                                <div class="button">
+                                    <button type="submit" class="btn">Enviar tu consulta</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-6 col-md-12 ">
+                <div class="appointment-image">
+                    <img src="/assets/img/contactanos.png" alt="#">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
