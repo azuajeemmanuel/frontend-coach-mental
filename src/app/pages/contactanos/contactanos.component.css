@@ -9,6 +9,11 @@
   }
 
   .section-title {
+    text-align: center; /* O el alineamiento que desees */
+    padding: 20px;      /* Ajusta el espaciado según sea necesario */
+}
+
+  .section-title {
     margin-top: -60px; 
     margin-bottom: 10px; 
 }

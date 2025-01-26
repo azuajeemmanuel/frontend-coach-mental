@@ -7,6 +7,11 @@
     margin-bottom: 30px;
 }
 
+.section-title {
+    text-align: center; /* O el alineamiento que desees */
+    padding: 20px;      /* Ajusta el espaciado según sea necesario */
+}
+
 .certifications .list-group-item {
     font-size: 18px;
     padding: 15px;
