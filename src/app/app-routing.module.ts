@@ -9,12 +9,14 @@ import { LoginComponent } from './pages/login/login.component';
 import { AfiliacionesComponent } from './pages/afiliaciones/afiliaciones.component';
 
 const routes: Routes = [
-    { path: '', component: IndexComponent },
+  { path: '', component: LayoutPublicoComponent, children: [
+    { path: 'index', component: IndexComponent },
     { path: 'boton', component: ButtonDemoComponent },
     { path: 'contactanos', component: ContactanosComponent },
     { path: 'perfil', component: PerfilComponent },
     { path: 'afiliaciones', component: AfiliacionesComponent },
     { path: 'login', component: LoginComponent }
+  ] },
 ];
 
 @NgModule({
