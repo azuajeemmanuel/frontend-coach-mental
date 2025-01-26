@@ -11,7 +11,7 @@ import { ContactanosComponent } from './pages/contactanos/contactanos.component'
 import { PerfilComponent } from './pages/perfil/perfil.component';
 import { LoginComponent } from './pages/login/login.component';
 import { AfiliacionesComponent } from './pages/afiliaciones/afiliaciones.component';
-import { HashLocationStrategy } from '@angular/common';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -29,6 +29,7 @@ import { HashLocationStrategy } from '@angular/common';
     PrimengModule
   ],
   providers: [
+    {provide: LocationStrategy, useClass: HashLocationStrategy},
     provideAnimationsAsync(),
     ...appConfig.providers
     
