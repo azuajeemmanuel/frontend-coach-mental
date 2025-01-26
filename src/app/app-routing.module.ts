@@ -9,6 +9,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { AfiliacionesComponent } from './pages/afiliaciones/afiliaciones.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: 'index', pathMatch: 'full' },
   { path: '', component: LayoutPublicoComponent, children: [
     { path: 'index', component: IndexComponent },
     { path: 'boton', component: ButtonDemoComponent },

@@ -4,20 +4,7 @@ $(document).ready(function(){
 ======================================*/ 	
 (function(){
 
-	var map;
-	map = new GMaps({
-		el: '#myMap',
-		lat: 51.507351,
-		lng: -0.127758,
-		scrollwheel:false,
-		zoom: 15,
-		zoomControl : false,
-		panControl : false,
-		streetViewControl : true,
-		mapTypeControl: false,
-		overviewMapControl: false,
-		clickable: false
-	});
+	
 
 	var image = 'img/map-marker.png';
 	map.addMarker({
