@@ -256,13 +256,6 @@ Version:	1.1
 			$('.sidebar-menu').removeClass('active');
 		});
 		
-		/*=====================
-			Video Popup JS
-		=======================*/ 
-		$('.video-popup').magnificPopup({
-			type: 'video',	
-		});
-		
 		/*================
 			Wow JS
 		==================*/		
