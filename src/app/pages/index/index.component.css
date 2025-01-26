@@ -6,9 +6,12 @@ body{
 	color:#888;
 }
 
-
-
+.section-title {
+    text-align: center; /* O el alineamiento que desees */
+    padding: 20px;      /* Ajusta el espaciado según sea necesario */
+}
 #fun-facts .content {
+    display: flex;
     margin-left: 10px;
 }
 
