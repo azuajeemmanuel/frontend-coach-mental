@@ -12,11 +12,11 @@ const routes: Routes = [
   { path: '', redirectTo: 'index', pathMatch: 'full' },
   { path: '', component: LayoutPublicoComponent, children: [
     { path: 'index', component: IndexComponent },
-    { path: 'boton', component: ButtonDemoComponent },
-    { path: 'contactanos', component: ContactanosComponent },
-    { path: 'perfil', component: PerfilComponent },
-    { path: 'afiliaciones', component: AfiliacionesComponent },
-    { path: 'login', component: LoginComponent }
+    { path: '#boton', component: ButtonDemoComponent },
+    { path: '#contactanos', component: ContactanosComponent },
+    { path: '#perfil', component: PerfilComponent },
+    { path: '#afiliaciones', component: AfiliacionesComponent },
+    { path: '#login', component: LoginComponent }
   ] },
 ];
 
