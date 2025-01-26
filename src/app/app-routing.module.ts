@@ -9,7 +9,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { AfiliacionesComponent } from './pages/afiliaciones/afiliaciones.component';
 
 const routes: Routes = [
-    { path: 'index', component: IndexComponent },
+    { path: '', component: IndexComponent },
     { path: 'boton', component: ButtonDemoComponent },
     { path: 'contactanos', component: ContactanosComponent },
     { path: 'perfil', component: PerfilComponent },
