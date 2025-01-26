@@ -11,6 +11,7 @@ import { ContactanosComponent } from './pages/contactanos/contactanos.component'
 import { PerfilComponent } from './pages/perfil/perfil.component';
 import { LoginComponent } from './pages/login/login.component';
 import { AfiliacionesComponent } from './pages/afiliaciones/afiliaciones.component';
+import { FooterComponent } from './pages/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AfiliacionesComponent } from './pages/afiliaciones/afiliaciones.compone
     ContactanosComponent,
     PerfilComponent,
     LoginComponent,
-    AfiliacionesComponent
+    AfiliacionesComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
