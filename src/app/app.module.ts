@@ -12,6 +12,7 @@ import { PerfilComponent } from './pages/perfil/perfil.component';
 import { LoginComponent } from './pages/login/login.component';
 import { AfiliacionesComponent } from './pages/afiliaciones/afiliaciones.component';
 import { FooterComponent } from './pages/footer/footer.component';
+import { PreloaderComponent } from './pages/preloader/preloader.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { FooterComponent } from './pages/footer/footer.component';
     LoginComponent,
     AfiliacionesComponent,
     FooterComponent,
+    PreloaderComponent,
   ],
   imports: [
     BrowserModule,
